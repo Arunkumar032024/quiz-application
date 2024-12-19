@@ -1,0 +1,23 @@
+{
+  "name": "quiz-application",
+  "version": "1.0.0",
+  "description": "A simple and interactive quiz application built using HTML, CSS, and JavaScript. Users can test their knowledge on various topics with multiple-choice questions, and receive immediate feedback on their performance. The app is responsive, making it accessible on all devices. Perfect for creating custom quizzes and learning experiences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arunkumar032024/quiz-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arunkumar032024/quiz-application/issues"
+  },
+  "homepage": "https://github.com/Arunkumar032024/quiz-application#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

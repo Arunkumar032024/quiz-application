@@ -15,7 +15,7 @@
             <h1 class="text-3xl font-bold text-gray-700 ">Quiz<span class="text-yellow-400">Gard</span></h1>
         </div>
         <div class="login-profile">
-            <button class="login border-2 border-yellow-400 px-6 py-1 rounded-sm text-yellow-400 font-bold transition-all duration-300 hover:text-white hover:bg-yellow-400">Login</button>
+            <button class="login-btn border-2 border-yellow-400 px-6 py-1 rounded-sm text-yellow-400 font-bold transition-all duration-300 hover:text-white hover:bg-yellow-400">Login</button>
             <p class="profile hidden text-2xl font-bold text-gray-700"></p>
         </div>
     </nav>
@@ -23,9 +23,20 @@
     <!-- banner section -->
     <div class="banner-section w-full flex flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]">
         <section class="content p-8  flex flex-col justify-between items-start sm:justify-center">
-            <p class="font-bold text-2xl md:text-4xl lg:text-5xl">Learn <br />new concepts <br />for each question</p>
+            <!-- banner content -->
+            <div class="banner-content">
+                <p class="font-bold text-2xl md:text-4xl lg:text-5xl">Learn <br />new concepts <br />for each question</p>
             <p class="w-full my-4 border-l-2 border-l-black p-4 py-2 pr-0 text-sm sm:text-lg truncate">We help you prepare for exams and quizes </p>
-            <button class="start capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white">start solving</button>
+            </div>
+
+            <!-- login content -->
+            <div class="login-content hidden w-full mb-4 relative">
+                <p class="text-center mb-4 font-semibold text-gray-500">Welcome back! <br />login to your account</p>
+                <label class="absolute ml-4 text-xs">Enter your name</label>
+                <input type="text" class="input-name w-full px-4 py-2 pt-4 shadow-md outline-none focus:border-4  focus:border-l-yellow-400 focus:border-t-0 focus:border-b-0 focus:border-r-0 text-yellow-400 font-bold rounded-sm" maxlength="20" />
+                <p class="error text-red-500 font-bold text-xs mt-2 hidden">Please enter your name</p>
+            </div>
+            <button class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white">start solving</button>
         </section>
         <section class="image flex justify-center items-center relative">
             <img src="./assets/images/banner/left.png" alt="left image" class="absolute w-32 top-4 right-2 -z-10">
@@ -43,5 +54,6 @@
 
     <!-- scripts -->
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>

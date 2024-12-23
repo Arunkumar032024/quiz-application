@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Which company developed JavaScript?",
+    "options": ["Microsoft", "Sun Microsystems", "Netscape", "IBM"],
+    "answer": "Netscape"
+  },
+  {
+    "question": "Which of the following is a correct syntax to print a message in the console in JavaScript?",
+    "options": [
+      "print('Hello')",
+      "console.log('Hello')",
+      "log.console('Hello')",
+      "echo('Hello')"
+    ],
+    "answer": "console.log('Hello')"
+  },
+  {
+    "question": "JavaScript is a ___-side programming language.",
+    "options": ["Client", "Server", "Both", "None"],
+    "answer": "Both"
+  },
+  {
+    "question": "What does 'var' stand for in JavaScript?",
+    "options": [
+      "Value Addition Representation",
+      "Variable",
+      "Variety",
+      "Variance"
+    ],
+    "answer": "Variable"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunction()",
+      "def myFunction()",
+      "create myFunction()",
+      "func myFunction()"
+    ],
+    "answer": "function myFunction()"
+  },
+  {
+    "question": "Which of the following is used to declare a variable in JavaScript?",
+    "options": ["var", "let", "const", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output of 2 + '2' in JavaScript?",
+    "options": ["4", "22", "NaN", "Error"],
+    "answer": "22"
+  },
+  {
+    "question": "How can you add a single-line comment in JavaScript?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "-- This is a comment"
+    ],
+    "answer": "// This is a comment"
+  },
+  {
+    "question": "Which method is used to find the length of a string in JavaScript?",
+    "options": ["length()", "size()", "count()", "length"],
+    "answer": "length"
+  },
+  {
+    "question": "Which of the following methods can be used to join two arrays in JavaScript?",
+    "options": ["combine()", "concat()", "merge()", "append()"],
+    "answer": "concat()"
+  },
+  {
+    "question": "What is the correct way to write an array in JavaScript?",
+    "options": [
+      "var colors = 'red', 'green', 'blue'",
+      "var colors = {'red', 'green', 'blue'}",
+      "var colors = ['red', 'green', 'blue']",
+      "var colors = (1: 'red', 2: 'green', 3: 'blue')"
+    ],
+    "answer": "var colors = ['red', 'green', 'blue']"
+  },
+  {
+    "question": "What does the 'typeof' operator in JavaScript do?",
+    "options": [
+      "Checks the type of a variable",
+      "Changes the type of a variable",
+      "Returns the value of a variable",
+      "None of the above"
+    ],
+    "answer": "Checks the type of a variable"
+  },
+  {
+    "question": "Which of the following is not a JavaScript data type?",
+    "options": ["String", "Boolean", "Undefined", "Float"],
+    "answer": "Float"
+  },
+  {
+    "question": "What will be the output of 'null === undefined'?",
+    "options": ["true", "false", "NaN", "Error"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you round a number to the nearest integer in JavaScript?",
+    "options": ["Math.round()", "Math.floor()", "Math.ceil()", "round()"],
+    "answer": "Math.round()"
+  },
+  {
+    "question": "What does the isNaN() function do?",
+    "options": [
+      "Checks if a value is a number",
+      "Checks if a value is not a number",
+      "Converts a value to a number",
+      "None of the above"
+    ],
+    "answer": "Checks if a value is not a number"
+  },
+  {
+    "question": "What will the following code output: console.log(0.1 + 0.2 === 0.3)?",
+    "options": ["true", "false", "NaN", "Error"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you declare a JavaScript object?",
+    "options": ["var obj = ()", "var obj = {}", "var obj = []", "var obj = <>"],
+    "answer": "var obj = {}"
+  },
+  {
+    "question": "Which of the following loops is not available in JavaScript?",
+    "options": ["for", "foreach", "while", "do-while"],
+    "answer": "foreach"
+  },
+  {
+    "question": "What is the correct way to write an if statement in JavaScript?",
+    "options": ["if i == 5 then", "if i = 5", "if (i == 5)", "if i = 5 then"],
+    "answer": "if (i == 5)"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Hyper Tool Making Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Who is the founder of HTML?",
+    "options": [
+      "Tim Berners-Lee",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "answer": "Tim Berners-Lee"
+  },
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "options": ["<para>", "<p>", "<text>", "<paragraph>"],
+    "answer": "<p>"
+  },
+  {
+    "question": "What is the correct HTML tag for inserting a line break?",
+    "options": ["<break>", "<br>", "<lb>", "<newline>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which tag is used to create an ordered list?",
+    "options": ["<ul>", "<ol>", "<li>", "<list>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which attribute specifies the URL of a link?",
+    "options": ["href", "link", "src", "url"],
+    "answer": "href"
+  },
+  {
+    "question": "How do you create a checkbox in HTML?",
+    "options": [
+      "<checkbox>",
+      "<input type='checkbox'>",
+      "<input checkbox>",
+      "<input type='box'>"
+    ],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": ["<style>", "<css>", "<script>", "<link>"],
+    "answer": "<style>"
+  },
+  {
+    "question": "What does the <a> tag in HTML do?",
+    "options": [
+      "Creates a link",
+      "Inserts an image",
+      "Adds an anchor point",
+      "Styles text"
+    ],
+    "answer": "Creates a link"
+  },
+  {
+    "question": "Which attribute is used to open a link in a new tab?",
+    "options": [
+      "target='_blank'",
+      "open='_new'",
+      "window='_tab'",
+      "new='_blank'"
+    ],
+    "answer": "target='_blank'"
+  },
+  {
+    "question": "What does the <img> tag do in HTML?",
+    "options": [
+      "Displays an image",
+      "Creates a hyperlink",
+      "Adds an icon",
+      "Displays a video"
+    ],
+    "answer": "Displays an image"
+  },
+  {
+    "question": "Which HTML attribute specifies an alternative text for an image?",
+    "options": ["alt", "title", "src", "text"],
+    "answer": "alt"
+  },
+  {
+    "question": "Which HTML tag is used to define a table row?",
+    "options": ["<row>", "<tr>", "<td>", "<th>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "How can you make a list that lists the items with bullets?",
+    "options": ["<ol>", "<ul>", "<list>", "<dl>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which HTML tag is used to define a header in a table?",
+    "options": ["<thead>", "<th>", "<header>", "<h>"],
+    "answer": "<th>"
+  },
+  {
+    "question": "What is the default file extension for an HTML file?",
+    "options": [".html", ".htm", ".xml", ".txt"],
+    "answer": ".html"
+  },
+  {
+    "question": "What does the <title> tag define in an HTML document?",
+    "options": [
+      "The title of the page",
+      "The heading",
+      "The footer",
+      "The main content"
+    ],
+    "answer": "The title of the page"
+  },
+  {
+    "question": "Which doctype declaration is correct for HTML5?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML5>",
+      "<DOCTYPE html5>",
+      "<HTML5!DOCTYPE>"
+    ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "question": "Which tag is used to create a dropdown list?",
+    "options": ["<select>", "<dropdown>", "<list>", "<option>"],
+    "answer": "<select>"
+  },
+  {
+    "question": "What is the purpose of the <meta> tag in HTML?",
+    "options": [
+      "Defines metadata",
+      "Links stylesheets",
+      "Adds scripts",
+      "Displays content"
+    ],
+    "answer": "Defines metadata"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "question": "What is Tailwind CSS primarily known for?",
+    "options": [
+      "Component-based styling",
+      "Utility-first CSS framework",
+      "Preprocessor like SASS",
+      "JavaScript library for styling"
+    ],
+    "correctAnswer": "Utility-first CSS framework"
+  },
+  {
+    "question": "How do you apply a background color in Tailwind?",
+    "options": ["bg-color-red", "background-red", "bg-red-500", "red-bg-500"],
+    "correctAnswer": "bg-red-500"
+  },
+  {
+    "question": "Which directive is used to import Tailwind CSS in a CSS file?",
+    "options": ["@import 'tailwind'", "@tailwind", "@apply", "@include"],
+    "correctAnswer": "@tailwind"
+  },
+  {
+    "question": "What does the class 'flex' do in Tailwind?",
+    "options": [
+      "Adds a flexible grid layout",
+      "Applies flexbox to the container",
+      "Sets a fixed width",
+      "Adds flex-grow to all child elements"
+    ],
+    "correctAnswer": "Applies flexbox to the container"
+  },
+  {
+    "question": "How do you make an element responsive in Tailwind?",
+    "options": [
+      "Use breakpoints",
+      "Use media queries manually",
+      "Add the responsive class",
+      "It is not possible"
+    ],
+    "correctAnswer": "Use breakpoints"
+  },
+  {
+    "question": "Which class adds padding to an element in Tailwind?",
+    "options": ["padding-4", "p-4", "pd-4", "pad-4"],
+    "correctAnswer": "p-4"
+  },
+  {
+    "question": "What does the class 'grid-cols-3' do?",
+    "options": [
+      "Sets a fixed grid width",
+      "Creates 3 columns in a grid layout",
+      "Adds a 3-column flexbox",
+      "Divides a container into thirds"
+    ],
+    "correctAnswer": "Creates 3 columns in a grid layout"
+  },
+  {
+    "question": "How do you set text alignment to center in Tailwind?",
+    "options": [
+      "text-align-center",
+      "text-center",
+      "align-text-center",
+      "center-align"
+    ],
+    "correctAnswer": "text-center"
+  },
+  {
+    "question": "Which class would you use to apply rounded corners in Tailwind?",
+    "options": ["rounded-lg", "radius-lg", "corner-lg", "border-radius-lg"],
+    "correctAnswer": "rounded-lg"
+  },
+  {
+    "question": "What is the purpose of the 'container' class in Tailwind?",
+    "options": [
+      "Applies a fixed width to the container",
+      "Adds padding to the container",
+      "Centers and sets a max-width for content",
+      "Creates a grid layout"
+    ],
+    "correctAnswer": "Centers and sets a max-width for content"
+  },
+  {
+    "question": "Which class sets an element to full height?",
+    "options": ["h-100", "h-full", "full-h", "height-full"],
+    "correctAnswer": "h-full"
+  },
+  {
+    "question": "How do you set a hover state in Tailwind?",
+    "options": [
+      "hover-state:bg-red",
+      "hover:bg-red-500",
+      "hover:red",
+      "bg-hover-red"
+    ],
+    "correctAnswer": "hover:bg-red-500"
+  },
+  {
+    "question": "Which class is used for margin in Tailwind?",
+    "options": ["m-4", "margin-4", "mg-4", "space-4"],
+    "correctAnswer": "m-4"
+  },
+  {
+    "question": "What does the class 'overflow-hidden' do?",
+    "options": [
+      "Hides overflowing content",
+      "Shows overflowing content",
+      "Scrolls overflowing content",
+      "Sets overflow to auto"
+    ],
+    "correctAnswer": "Hides overflowing content"
+  },
+  {
+    "question": "How do you make text bold in Tailwind?",
+    "options": ["text-bold", "font-bold", "bold-text", "font-weight-bold"],
+    "correctAnswer": "font-bold"
+  },
+  {
+    "question": "What does 'shadow-lg' do in Tailwind?",
+    "options": [
+      "Applies a large shadow to an element",
+      "Creates a gradient shadow",
+      "Adds a large outline",
+      "Increases the element size"
+    ],
+    "correctAnswer": "Applies a large shadow to an element"
+  },
+  {
+    "question": "Which class adds a border in Tailwind?",
+    "options": ["border-1", "border", "border-lg", "bd-1"],
+    "correctAnswer": "border"
+  },
+  {
+    "question": "What does the 'z-10' class control?",
+    "options": ["Zoom level", "Z-index", "Padding", "Margin"],
+    "correctAnswer": "Z-index"
+  },
+  {
+    "question": "How do you center items in a flex container in Tailwind?",
+    "options": [
+      "align-center",
+      "justify-center",
+      "flex-center",
+      "items-center"
+    ],
+    "correctAnswer": "items-center"
+  },
+  {
+    "question": "Which class is used for uppercase text in Tailwind?",
+    "options": [
+      "text-uppercase",
+      "uppercase",
+      "uppercase-text",
+      "font-uppercase"
+    ],
+    "correctAnswer": "uppercase"
+  }
+]

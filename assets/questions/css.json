@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "What is the correct CSS syntax to make all paragraphs bold?",
+    "options": [
+      "p {font-weight: bold;}",
+      "p {text-size: bold;}",
+      "<p style=\"bold;\">",
+      "<p style=\"font-weight: bold;\">"
+    ],
+    "answer": "p {font-weight: bold;}"
+  },
+  {
+    "question": "How do you add a comment in CSS?",
+    "options": [
+      "/* this is a comment */",
+      "// this is a comment",
+      "<!-- this is a comment -->",
+      "' this is a comment"
+    ],
+    "answer": "/* this is a comment */"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": ["font-style", "font-weight", "font-family", "font"],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you make a list not display bullet points?",
+    "options": [
+      "list-style: none;",
+      "list-type: none;",
+      "text-decoration: none;",
+      "bullet-style: none;"
+    ],
+    "answer": "list-style: none;"
+  },
+  {
+    "question": "Which property is used to control the spacing between lines of text?",
+    "options": ["line-height", "letter-spacing", "text-spacing", "text-height"],
+    "answer": "line-height"
+  },
+  {
+    "question": "What is the default value of the position property in CSS?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "answer": "static"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": [
+      "font-weight: bold;",
+      "font-style: bold;",
+      "text-bold: true;",
+      "style: bold;"
+    ],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": ["color", "text-color", "font-color", "background-color"],
+    "answer": "color"
+  },
+  {
+    "question": "What does the z-index property control in CSS?",
+    "options": [
+      "The stack order of elements",
+      "The transparency of elements",
+      "The scaling of elements",
+      "The font size of elements"
+    ],
+    "answer": "The stack order of elements"
+  },
+  {
+    "question": "Which property is used to create space between elements?",
+    "options": ["margin", "padding", "spacing", "border"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which property specifies the bottom border color of an element?",
+    "options": [
+      "border-bottom-color",
+      "border-color-bottom",
+      "bottom-border-color",
+      "border-color"
+    ],
+    "answer": "border-bottom-color"
+  },
+  {
+    "question": "How do you make a hyperlink without an underline?",
+    "options": [
+      "text-decoration: none;",
+      "a {decoration: none;}",
+      "a {text-decoration: no-underline;}",
+      "hyperlink: none;"
+    ],
+    "answer": "text-decoration: none;"
+  },
+  {
+    "question": "Which property is used to specify the width of an element's border?",
+    "options": [
+      "border-width",
+      "border-style",
+      "border-thickness",
+      "border-height"
+    ],
+    "answer": "border-width"
+  },
+  {
+    "question": "What value of overflow hides the content outside of an element?",
+    "options": ["hidden", "visible", "scroll", "auto"],
+    "answer": "hidden"
+  },
+  {
+    "question": "Which property specifies the maximum width of an element?",
+    "options": ["max-width", "width-limit", "max-height", "maximum-width"],
+    "answer": "max-width"
+  },
+  {
+    "question": "Which CSS property makes text italic?",
+    "options": [
+      "font-style: italic;",
+      "font-weight: italic;",
+      "text-italic: true;",
+      "font-decoration: italic;"
+    ],
+    "answer": "font-style: italic;"
+  },
+  {
+    "question": "How can you apply a style to multiple selectors?",
+    "options": [
+      "Separate selectors with a comma",
+      "Separate selectors with a plus sign",
+      "Separate selectors with a space",
+      "Separate selectors with a semicolon"
+    ],
+    "answer": "Separate selectors with a comma"
+  },
+  {
+    "question": "What does the :hover pseudo-class do?",
+    "options": [
+      "Applies a style when the mouse is over an element",
+      "Applies a style when an element is clicked",
+      "Applies a style when the element is focused",
+      "Applies a style when the element is active"
+    ],
+    "answer": "Applies a style when the mouse is over an element"
+  }
+]

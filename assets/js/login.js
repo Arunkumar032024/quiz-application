@@ -24,7 +24,6 @@ startBtn.addEventListener('click', function(e){
         profileTab.classList.remove('hidden');
         localStorage.setItem('profileName', inputNameBox.value)
         profileName = inputNameBox.value;
-        location.reload();
     } else {
         errorMsg.classList.remove('hidden');
     }

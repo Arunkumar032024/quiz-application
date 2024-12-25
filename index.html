@@ -1,63 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./assets/css/output.css" rel="stylesheet">
-  <!-- font awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <!-- navbar -->
-    <nav class="bg-white z-50 flex justify-between items-center p-4 border-b-[1px] border-gray-300">
-        <div class="navbar-brarnd relative ml-4">
-            <img src="./assets/images/navbar/logo.png" alt="logo" class="absolute w-8 -top-2 -left-2">
-            <h1 class="text-3xl font-bold text-gray-700 ">Quiz<span class="text-yellow-400">Gard</span></h1>
-        </div>
-        <div class="login-profile">
-            <button class="login-btn border-2 border-yellow-400 px-6 py-1 rounded-sm text-yellow-400 font-bold transition-all duration-300 hover:text-white hover:bg-yellow-400">Login</button>
-            <p class="profile hidden text-2xl font-bold text-gray-700"></p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/output.css" rel="stylesheet" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav
+      class="bg-white z-50 flex justify-between items-center p-4 border-b-[1px] border-gray-300"
+    >
+      <div class="navbar-brarnd relative ml-4">
+        <img
+          src="./assets/images/navbar/logo.png"
+          alt="logo"
+          class="absolute w-8 -top-2 -left-2"
+        />
+        <h1 class="text-3xl font-bold text-gray-700">
+          Quiz<span class="text-yellow-400">Gard</span>
+        </h1>
+      </div>
+      <div class="login-profile">
+        <button
+          class="login-btn border-2 border-yellow-400 px-6 py-1 rounded-sm text-yellow-400 font-bold transition-all duration-300 hover:text-white hover:bg-yellow-400"
+        >
+          Login
+        </button>
+        <p class="profile hidden text-2xl font-bold text-gray-700"></p>
+      </div>
     </nav>
+    <!-- End navbar section -->
 
     <!-- banner section -->
-    <div class="banner-section w-full flex flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]">
-        <section class="content p-8  flex flex-col justify-between items-start sm:justify-center">
-            <!-- banner content -->
-            <div class="banner-content">
-                <p class="font-bold text-2xl md:text-4xl lg:text-5xl">Learn <br />new concepts <br />for each question</p>
-            <p class="w-full my-4 border-l-2 border-l-black p-4 py-2 pr-0 text-sm sm:text-lg truncate">We help you prepare for exams and quizes </p>
-            </div>
+    <div
+      class="banner-section hidden w-full flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
+    >
+      <section
+        class="content p-8 flex flex-col justify-between items-start sm:justify-center"
+      >
+        <!-- banner content -->
+        <div class="banner-content">
+          <p class="font-bold text-2xl md:text-4xl lg:text-5xl">
+            Learn <br />new concepts <br />for each question
+          </p>
+          <p
+            class="w-full my-4 border-l-2 border-l-black p-4 py-2 pr-0 text-sm sm:text-lg truncate"
+          >
+            We help you prepare for exams and quizes
+          </p>
+        </div>
 
-            <!-- login content -->
-            <div class="login-content hidden w-full mb-4 relative">
-                <p class="text-center mb-4 font-semibold text-gray-500">Welcome back! <br />login to your account</p>
-                <label class="absolute ml-4 text-xs">Enter your name</label>
-                <input type="text" class="input-name w-full px-4 py-2 pt-4 shadow-md outline-none focus:border-4  focus:border-l-yellow-400 focus:border-t-0 focus:border-b-0 focus:border-r-0 text-yellow-400 font-bold rounded-sm" maxlength="20" />
-                <p class="error text-red-500 font-bold text-xs mt-2 hidden">Please enter your name</p>
-            </div>
-            <button class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white">start solving</button>
-        </section>
-        <section class="image flex justify-center items-center relative">
-            <img src="./assets/images/banner/left.png" alt="left image" class="absolute w-32 top-4 right-2 -z-10">
-            <img src="./assets/images/banner/banner.png" alt="banner image" class="w-80 md:w-[27rem] lg:w-[30rem] p-8">
-            <img src="./assets/images/banner/right.png" alt="right image" class="absolute w-32 bottom-12 left-2 -z-10">
-        </section>
+        <button
+          class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
+        >
+          start solving
+        </button>
+      </section>
+      <section class="image flex justify-center items-center relative">
+        <img
+          src="./assets/images/banner/left.png"
+          alt="left image"
+          class="absolute w-32 top-4 right-2 -z-10"
+        />
+        <img
+          src="./assets/images/banner/banner.png"
+          alt="banner image"
+          class="w-80 md:w-[27rem] lg:w-[30rem] p-8"
+        />
+        <img
+          src="./assets/images/banner/right.png"
+          alt="right image"
+          class="absolute w-32 bottom-12 left-2 -z-10"
+        />
+      </section>
     </div>
+    <!-- End banner section -->
+
+    <!-- login section -->
+    <div
+      class="banner-section w-full hidden flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
+    >
+      <section
+        class="content p-8 flex flex-col justify-between items-start sm:justify-center"
+      >
+        <div class="login-content w-full mb-4 relative">
+          <p class="text-center mb-4 font-semibold text-gray-500">
+            Welcome back! <br />login to your account
+          </p>
+          <label class="absolute ml-4 text-xs">Enter your name</label>
+          <input
+            type="text"
+            class="input-name w-full px-4 py-2 pt-4 shadow-md outline-none focus:border-4 focus:border-l-yellow-400 focus:border-t-0 focus:border-b-0 focus:border-r-0 text-yellow-400 font-bold rounded-sm"
+            maxlength="20"
+          />
+          <p class="error text-red-500 font-bold text-xs mt-2 hidden">
+            Please enter your name
+          </p>
+        </div>
+
+        <button
+          class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
+        >
+          start solving
+        </button>
+      </section>
+      <section class="image flex justify-center items-center relative">
+        <img
+          src="./assets/images/banner/banner.png"
+          alt="banner image"
+          class="w-80 md:w-[27rem] lg:w-[30rem] p-8"
+        />
+      </section>
+    </div>
+    <!-- End login section -->
 
     <!-- dashboard section -->
-    <div class="dashboard-section">
+    <div
+      class="dashboard-section w-full hidden flex-col justify-between min-h-[88vh] p-4"
+    >
+      <div>
+        <p class="text-2xl font-bold text-gray-500">To start the exam, please select a topic</p>
+      <hr />
+      </div>
+      
+      <ul class="my-4 flex flex-col gap-4">
+        <li ><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2">html</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2">css</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2">javascript</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2">tailwind</button></li>
+      </ul>
 
+      <div class="text-right">
+        <button class="start border-2 border-yellow-500 text-sm font-bold text-yellow-500 uppercase py-2 px-4">Start</button>
+      </div>
     </div>
+    <!-- End dashboard section -->
 
-    <!-- static image  -->
-    <img src="./assets/images/banner/bottom.png" alt="bottom image" class="fixed">
 
-    
+    <!-- question section -->
+    <div class="question-section w-full min-h-[88vh] py-12 px-4"> 
+      <p class="fixed font-bold top-20 right-4">Time: <span>00</span></p>
+      <p class="question text-xl text-gray-500 font-bold"><span class="question-no">Q1.</span> What is your name?</p>
+      <ul class="my-4 flex flex-col gap-4">
+        <li ><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2 px-4 text-left">arun</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2 px-4 text-left">css</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2 px-4 text-left">javascript</button></li>
+        <li><button class="w-full border-2 border-yellow-500 text-xl font-bold text-yellow-500 uppercase py-2 px-4 text-left">tailwind</button></li>
+      </ul>
 
+      <button class="next bg-white border-2  border-yellow-400 px-4 py-1 font-bold text-yellow-400 fixed bottom-4 right-4">Next</button>
+    </div>
+    <!-- End question section -->
+
+    <!-- winner section -->
+    <div class="winner-section w-full min-h-[88vh] p-4 hidden flex-col justify-center items-center">
+      <div class="bg-yellow-400 w-full p-4 rounded-sm flex flex-col justify-between gap-4 items-center">
+        <p class="w-40 h-40 bg-white text-yellow-400 font-bold text-5xl rounded-full flex justify-center items-center ">80</p>
+        <p class="text-3xl font-bold text-gray-500">Your Score</p>
+      </div>
+      <button class="continue fixed bottom-4 right-4 border-2 border-yellow-400 px-4 py-2 text-yellow-400 font-bold uppercase text-sm">continue</button>
+    </div>
+    <!-- End winner section -->
+
+    <!-- timeout section -->
+    <div class="winner-section w-full min-h-[88vh] p-4 hidden flex-col justify-center items-center">
+      <div class="bg-red-400 w-full p-4 rounded-sm flex flex-col justify-between gap-4 items-center">
+        <p class="text-3xl font-bold text-gray-500">Opps, TimeOut!</p>
+      </div>
+      <button class="continue fixed bottom-4 right-4 border-2 border-yellow-400 px-4 py-2 text-yellow-400 font-bold uppercase text-sm">Try Again !</button>
+    </div>
+    <!-- End timeout section -->
 
     <!-- scripts -->
+    <script src="./assets/js/variable.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/login.js"></script>
-</body>
+  </body>
 </html>

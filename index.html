@@ -41,7 +41,7 @@
 
     <!-- banner section -->
     <div
-      class="banner-section hidden w-full flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
+      class="banner-section w-full flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
     >
       <section
         class="content p-8 flex flex-col justify-between items-start sm:justify-center"
@@ -59,7 +59,7 @@
         </div>
 
         <button
-          class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
+          class="start-solving-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
         >
           start solving
         </button>
@@ -86,7 +86,7 @@
 
     <!-- login section -->
     <div
-      class="banner-section w-full hidden flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
+      class="login-section w-full hidden flex-col-reverse sm:grid grid-cols-2 sm:min-h-[80vh]"
     >
       <section
         class="content p-8 flex flex-col justify-between items-start sm:justify-center"
@@ -98,23 +98,23 @@
           <label class="absolute ml-4 text-xs">Enter your name</label>
           <input
             type="text"
-            class="input-name w-full px-4 py-2 pt-4 shadow-md outline-none focus:border-4 focus:border-l-yellow-400 focus:border-t-0 focus:border-b-0 focus:border-r-0 text-yellow-400 font-bold rounded-sm"
+            class="input-profile-name w-full px-4 py-2 pt-4 shadow-md outline-none focus:border-4 focus:border-l-yellow-400 focus:border-t-0 focus:border-b-0 focus:border-r-0 text-yellow-400 font-bold rounded-sm"
             maxlength="20"
           />
-          <p class="error text-red-500 font-bold text-xs mt-2 hidden">
+          <p class="error-msg text-red-500 font-bold text-xs mt-2 hidden">
             Please enter your name
           </p>
         </div>
 
         <button
-          class="start-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
+          class="login-login-btn capitalize border-yellow-400 border-2 px-6 py-1 rounded-sm text-white hover:text-yellow-400 font-bold transition-all duration-300 bg-yellow-400 hover:bg-white"
         >
-          start solving
+          Login
         </button>
       </section>
       <section class="image flex justify-center items-center relative">
         <img
-          src="./assets/images/banner/banner.png"
+          src="./assets/images/login/image.png"
           alt="banner image"
           class="w-80 md:w-[27rem] lg:w-[30rem] p-8"
         />
@@ -146,7 +146,7 @@
 
 
     <!-- question section -->
-    <div class="question-section w-full min-h-[88vh] py-12 px-4"> 
+    <div class="question-section hidden w-full min-h-[88vh] py-12 px-4"> 
       <p class="fixed font-bold top-20 right-4">Time: <span>00</span></p>
       <p class="question text-xl text-gray-500 font-bold"><span class="question-no">Q1.</span> What is your name?</p>
       <ul class="my-4 flex flex-col gap-4">
@@ -181,7 +181,7 @@
 
     <!-- scripts -->
     <script src="./assets/js/variable.js"></script>
-    <script src="./assets/js/navbar.js"></script>
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
